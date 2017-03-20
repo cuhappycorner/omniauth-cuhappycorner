@@ -20,7 +20,7 @@ module OmniAuth
         raw_info["_id"]["$oid"]
       }
 
-      info do
+      info {
         :email => raw_info["email"],
         :birthday => raw_info["birthday"],
         :mobile => raw_info["mobile"],
@@ -33,7 +33,7 @@ module OmniAuth
         :token => access_token.token
         # raw_info.merge("token" => access_token.token)
         # and anything else you want to return to your API consumers
-      end
+      }
 
       def raw_info
         @raw_info ||= access_token.get('/api/v1/me.json').parsed
