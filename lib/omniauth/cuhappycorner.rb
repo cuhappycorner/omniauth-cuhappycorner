@@ -21,15 +21,15 @@ module OmniAuth
       }
 
       info do
-        :email => raw_info["email"]
-        :birthday => raw_info["birthday"]
-        :mobile => raw_info["mobile"]
-        :display_name => raw_info["display_name"]
-        :name => raw_info["name"]
-        :gender => raw_info["gender"]
-        :cu_resident => raw_info["cu_resident"]
-        :cu_link_id => raw_info["cu_link_id"]
-        :type => raw_info[""]
+        :email => raw_info["email"],
+        :birthday => raw_info["birthday"],
+        :mobile => raw_info["mobile"],
+        :display_name => raw_info["display_name"],
+        :name => raw_info["name"],
+        :gender => raw_info["gender"],
+        :cu_resident => raw_info["cu_resident"],
+        :cu_link_id => raw_info["cu_link_id"],
+        :type => raw_info[""],
         :token => access_token.token
         # raw_info.merge("token" => access_token.token)
         # and anything else you want to return to your API consumers
