@@ -10,14 +10,14 @@ Gem::Specification.new do |spec|
   spec.email         = ["me@ckho.info"]
 
   spec.summary       = %q{OnmiAuth Extension for CU Happy Corner OAuth SSO}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.description   = %q{This is the OmniAuth extension for CU Happy Corner OAuth Single-Sign On (SSO) Service.}
+  spec.homepage      = "https://github.com/cuhappycorner/omniauth-cuhappycorner"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata['allowed_push_host'] = ""
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
