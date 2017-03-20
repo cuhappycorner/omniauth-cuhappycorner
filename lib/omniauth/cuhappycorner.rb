@@ -21,11 +21,9 @@ module OmniAuth
       }
 
       info do
-        {
-          # :email => raw_info["email"]
-          raw_info.merge("token" => access_token.token)
-          # and anything else you want to return to your API consumers
-        }
+        # :email => raw_info["email"]
+        raw_info.merge("token" => access_token.token)
+        # and anything else you want to return to your API consumers
       end
 
       def raw_info
