@@ -17,7 +17,7 @@ module OmniAuth
       end
 
       uid {
-        raw_info["id"]
+        raw_info["_id"]["$oid"]
       }
 
       info do
