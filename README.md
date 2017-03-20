@@ -8,16 +8,13 @@ This is the OmniAuth extension for CU Happy Corner OAuth Single-Sign On (SSO) Se
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omniauth-cuhappycorner', :github => 'cuhappycorner/onmiauth-cuhappycorner'
+gem 'omniauth-cuhappycorner', :github => 'cuhappycorner/omniauth-cuhappycorner'
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install omniauth-cuhappycorner
 
 ## Usage
 
