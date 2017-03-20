@@ -28,9 +28,10 @@ module OmniAuth
           :name => raw_info["name"],
           :gender => raw_info["gender"],
           :cu_resident => raw_info["cu_resident"],
+          :cuid => raw_info["cuid"],
           :cu_link_id => raw_info["cu_link_id"],
-          :type => raw_info[""],
-          :token => access_token.token
+          :type => raw_info["cuid_type"]
+          # :token => access_token.token
           # raw_info.merge("token" => access_token.token)
           # and anything else you want to return to your API consumers
         }
